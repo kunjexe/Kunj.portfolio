@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Kunj's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+<body>
+    <!--===== Header =====-->
+    <header>
+        <nav>
+            <div class="left">Kunj Sheth</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!--===== Home =====-->
+    <section class="home" id="home">
+        <div class="leftsection">
+            Hi,My name is <span class="purple">Kunj</span>
+            <div>and I am a passionate</div>
+            <span id="element"></span>
+            <div class="home_social">
+                <a href="https://www.linkedin.com/in/kunj-sheth-0218aa250"><img class="linkedin"
+                        src="assets/linkedin.png">
+                </a>
+                <a href="https://github.com/kunjexe"><img class="github" src="assets/gitt.png">
+                </a>
+            </div>
+        </div>
+        <div class="rightsection">
+            <img src="assets/bg.jpg">
+        </div>
+    </section>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer.', 'Web Designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+    <hr>
+    <!--===== About =====-->
+    <section class="about" id="about">
+        <h1>About</h1>
+        <div class="about__container">
+            <img class="myself" src="assets/me.jpg">
+            <div class="about__content">
+                <h2>I'am <span class="purple">Kunj Sheth</span></h2>
+                <p class="about__text">And currently I am persuing my degree in B.E Information Technology. I am kind of
+                    very energetics when its comes to projects and also I am very good at sports. My goal is to get into
+                    top
+                    tech company and make a name for myself so I can make my parents proud.
+                </p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!--===== Skills =====-->
+    <section class="skills__section" id="skills">
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills__container">
+            <img src="assets/work3.jpg" class="skills__img">
+            <p class="skills__text">I been improving my skills as an engineer and growing day by day through
+                experience and hardwork.I can be great leader as I have work on many event mangagements at my
+                university.
+                The engineering has taught me lot on life and on real world, I also know the soft skills which are
+                very important for personality development and in buisness ethics and professional ethics.
+            </p>
+        </div>
+        <section class="graph">
+            <p>Html</p>
+            <div class="container">
+                <div class="skills html">90%</div>
+            </div>
+
+            <p>CSS</p>
+            <div class="container">
+                <div class="skills css">80%</div>
+            </div>
+
+            <p>JavaScript</p>
+            <div class="container">
+                <div class="skills js">45%</div>
+            </div>
+
+            <p>ReactJs</p>
+            <div class="container">
+                <div class="skills react">30%</div>
+            </div>
+            <p>NodeJs</p>
+            <div class="container">
+                <div class="skills node">15%</div>
+            </div>
+        </section>
+        <div class="text_box">
+            <a href="assets/kunjsheth.resume.pdf" class="btn btn-white btn-animate">Resume/Cv</a>
+        </div>
+    </section>
+    <hr class="prohr">
+    <!--===== Projects=====-->
+    <section class="projects" id="projects">
+        <h2 class="section-title">Projects</h2>
+<div class="project__container"><h1>Coming Soon.</h1></div>
+    </section>
+    <hr>
+    <!--===== Contact ME =====-->
+    <section class="contact section" id="contact">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact__me">
+            <h2>Email: kunjsheth6535@gmail.com</h2>
+            <h2>Phone No: 6353498812</h2>
+        </div>
+    </section>
+    <!--===== Footer =====-->
+    <footer class="footer">
+        <p class="footer__title">Kunj Sheth</p>
+        <div class="footer__social">
+            <a href="https://instagram.com/kunj.exe?igshid=OGQ5ZDc2ODk2ZA==" class="footer__icon"><i
+                    class='bx bxl-facebook'></i></a>
+            <a href="https://instagram.com/kunj.exe?igshid=OGQ5ZDc2ODk2ZA==" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://twitter.com/kunj.exe" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Kunjsheth. All rigths reserved</p>
+    </footer>
+</body>
+
+</html>

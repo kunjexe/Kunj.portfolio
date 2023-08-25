@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: darkslateblue;
+  color: whitesmoke;
+  font-family: 'Poppins';
+}
+
+nav {
+  background-color: rgb(121, 104, 227);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 55px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin: 0 23px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  color: rgb(170, 170, 216);
+  font-size: 1.05rem;
+}
+
+.left {
+  font-size: 1.5rem;
+}
+
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 80px 0;
+  height: 485px;
+}
+
+#element {
+  color: rgb(177, 118, 205);
+}
+
+.leftsection {
+  text-align: center;
+  font-size: 2.9rem;
+  margin: 140px 0;
+}
+
+.rightsection img {
+  width: 400px;
+  height: 500px;
+  margin: 40px 0;
+  border-radius: 80%;
+  opacity: 0.9;
+}
+
+.purple {
+  color: rgb(177, 118, 205);
+}
+
+.home_social {
+  display: flex;
+  flex-direction: row;
+  margin: 110px 200px;
+}
+
+.linkedin {
+  width: 40px;
+  border-radius: 90%;
+  margin: 9px;
+
+}
+
+.github {
+  width: 60px;
+  height: 60px;
+}
+
+.home_social-icon:hover {
+  color: gray;
+}
+
+hr {
+  border: 0;
+  background-color: rgb(159, 159, 204);
+  height: 1.3px;
+  margin: 40px 85px;
+}
+
+/* ===== About =====*/
+.about {
+  max-width: 80vw;
+  margin: auto;
+
+}
+
+.about h1 {
+  font-size: 2rem;
+}
+
+.about__container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.myself {
+  width: 62%;
+  height: 137%;
+  margin: 80px 100px;
+  border-radius: 5%;
+  opacity: 0.9;
+}
+
+.about__content {
+  margin: 100px 50px;
+  height: fit-content;
+  font-size: 1.5rem;
+}
+
+.about__content h2 {
+  font-size: 3rem;
+}
+
+/* ===== SKILLS =====*/
+
+.section-title {
+  font-size: 2rem;
+  max-width: 80vw;
+  margin: auto;
+}
+
+.skills__container {
+  display: flex;
+  justify-content: space-around;
+  margin: 80px 160px;
+  height: 30%;
+  width: 80%;
+}
+
+.skills__img {
+  border-radius: 0.9rem;
+  width: 37%;
+  height: 70%;
+}
+
+.skills__text {
+  text-align: center;
+  margin: 10px 5px;
+  height: 10%;
+  width: 25%;
+}
+
+* {
+  box-sizing: border-box
+}
+
+.graph {
+  margin: 20px auto;
+  width: 60%;
+}
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.html {
+  width: 90%;
+  background-color: #04AA6D;
+}
+
+.css {
+  width: 80%;
+  background-color: #2196F3;
+}
+
+.js {
+  width: 45%;
+  background-color: #f44336;
+}
+
+.react {
+  width: 30%;
+  background-color: #808080;
+}
+
+.node {
+  width: 15%;
+  background-color: cadetblue;
+}
+
+/*cv download buutton*/
+.text_box {
+  margin: 80px 664px;
+}
+
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 15px 40px;
+  display: inline-block;
+  border-radius: 100px;
+  transition: all .2s;
+  position: absolute;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-white {
+  background-color: #fff;
+  color: #777;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  transition: all .4s;
+}
+
+.btn-white::after {
+  background-color: #fff;
+}
+
+.btn:hover::after {
+  transform: scaleX(1.4) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn-animated {
+  animation: moveInBottom 5s ease-out;
+  animation-fill-mode: backwards;
+}
+
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.footer {
+  background-color: rgb(23, 8, 46);
+  color: #fff;
+  text-align: center;
+  font-weight: 500;
+  padding: 2rem 0;
+}
+
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.footer__social {
+  margin-bottom: 50px;
+}
+
+.footer__icon {
+  font-size: 1.5rem;
+  color: #fff;
+  margin: 0 5px;
+}
+
+.footer__copy {
+  font-size: .5rem;
+}
+
+.contact__me {
+  margin: 80px 155px;
+  padding: 0px 10px;
+}
+hr {
+  border: 0;
+  background-color: rgb(159, 159, 204);
+  height: 1.3px;
+  margin-top: 165px;
+}
+.project__container {
+    margin: 101px 200px;
+}
